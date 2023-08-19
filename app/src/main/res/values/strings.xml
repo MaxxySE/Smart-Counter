@@ -1,0 +1,172 @@
+<resources>
+    <string name="app_name">Smart Counter</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="pay_attantion_cs">ОБРАТИТЕ ВНИМАНИЕ: показаний счетчиков \n необходимо внести в систему до 25 числа \n включительно текущего месяца!</string>
+    <string name="electricity_cs">Электроснабжение</string>
+    <string name="input_data_cs">Внесите данные</string>
+    <string name="tarif_plan">Тарифный план - 4,68 руб/кВт*час</string>
+    <string name="tarif_plan1">Тарифный план - 27,36 куб.м</string>
+    <string name="tarif_plan2">Тарифный план - 161,03 куб.м</string>
+    <string name="cold_water_cs">Холодное водоснабжение</string>
+    <string name="hot_water_cs">Горячее водоснабжение</string>
+    <string name="to_pay_cs">К оплате по ЕПД:</string>
+    <string name="count_based_on_data_cs">Расчет по переданным показаниям:</string>
+    <string name="send_data_cs">Передать показания</string>
+    <string name="start_sum">0 руб.</string>
+    <string name="city_service">Городской сервис\n"Умные счетчики"</string>
+    <string name="welcome_text">Добро пожаловать!</string>
+    <string name="register_text">Зарегистрировать</string>
+
+    <!-- login page -->
+    <string name="login_text">Войти</string>
+    <string name="login_page_header">Вход</string>
+    <string name="login_page_subtitle">Пожалуйста, введите свои\nданные для входа</string>
+    <string name="username_textfield">Логин</string>
+    <string name="password_textfield">Пароль</string>
+    <string name="forgot_password">Забыли пароль?</string>
+    <string name="didnt_you_have_acc">У вас еще нет аккаунта?</string>
+    <string name="login_register_text">Зарегистрируйтесь</string>
+
+    <!-- register page -->
+    <string name="register_title">Регистрация</string>
+    <string name="register_subtitle">Пожалуйста, введите свои\nданные для регистрации</string>
+    <string name="register_username">Введите логин</string>
+    <string name="register_password">Введите пароль</string>
+    <string name="register_password_repeat">Повторите пароль</string>
+    <string name="register_payercode">Код плательщика</string>
+    <string name="register_payercode_htf">Как найти Код плательщика?</string>
+    <string name="register_btn">Зарегистрироваться</string>
+
+    <!-- main page -->
+    <string name="main_to_pay_epd">К оплате по Единому платежному документу:</string>
+    <string name="main_payed">Оплачено в текущем месяце:</string>
+    <string name="main_to_pay">Сумма к оплате:</string>
+    <string name="main_pay_btn">Оплатить</string>
+    <string name="main_send_records_btn">Передать показания</string>
+    <string name="main_start_sum">0</string>
+    <string name="main_currency">рублей</string>
+
+    <!-- analyse page -->
+    <string name="prev_month">Апрель</string>
+    <string name="current_month">Май</string>
+    <string name="water_analysis_text">Холодная вода (куб.м)</string>
+    <string name="warm_analysis_text">Горячая вода (куб.м)</string>
+    <string name="power_analysis_text">Электроэнергия (кВТ*час)</string>
+    <string name="increase_text">Увеличение\nпотребления\nза месяц на</string>
+    <string name="power_increase_percent">25%</string>
+    <string name="water_increase_percent">12%</string>
+
+    <!-- headers names -->
+    <string name="main_header_text">Главная</string>
+    <string name="analyse_header_text">Анализ расходов</string>
+    <string name="prediction_header_text">Прогноз расходов</string>
+    <string name="records_header_text">Передача показаний</string>
+
+    <!-- prediction page -->
+    <string name="prediction_month">Месяц</string>
+    <string name="prediction_year">Год</string>
+    <string name="prediction_type">Показания</string>
+    <string name="prediction_electricity">Электроэнергия (кВТ*час)</string>
+    <string name="prediction_payed_last_month">Оплачено в\nпрошлом месяце</string>
+    <string name="prediction_payed_current_month">Оплачено в\nтекущем месяце</string>
+    <string name="prediction_planned">Планируемый расход\nв следующем месяце</string>
+    <string name="prediction_currency">₽</string>
+    <string name="prediction_start_sum">0</string>
+
+    <!-- navigation -->
+    <string name="nav_main_text">Главная</string>
+    <string name="nav_records_text">Передача показаний</string>
+    <string name="nav_analyse_text">Анализ расходов</string>
+    <string name="nav_prediction_text">Прогноз расходов</string>
+    <string name="nav_archive_text">Архив показаний</string>
+    <string name="nav_feedback_text">Обратная связь</string>
+    <string name="nav_notifications_text">Уведомления</string>
+    <string name="nav_settings_text">Настройки</string>
+    <string name="nav_exit_text">Выход</string>
+
+
+    <!-- navigation header-->
+    <string name="nav_name">Дмитрий</string>
+    <string name="nav_lastname">Иванов</string>
+    <string name="nav_user_data">2273371229</string>
+
+    <!-- settings -->
+    <string name="email_text">E-mail:</string>
+    <string name="phone_text">Телефон:</string>
+    <string name="phone">+7 (012) 345-67-89</string>
+    <string name="email">username@example.com</string>
+    <string name="save_btn">Сохранить</string>
+    <string name="payercode_btn">Код плательщика</string>
+    <string name="records_btn">Приборы учета</string>
+    <string name="logindata_btn">Данные для входа</string>
+
+    <!-- payercode -->
+    <string name="payercode_text">Код плательщика:</string>
+    <string name="payercode_example">ЛС №8765226661</string>
+    <string name="payercode_hint">Код плательщика</string>
+    <string name="add_btn">Добавить</string>
+
+    <!-- records -->
+    <string name="records_text">Выберите необходимый прибор учета:</string>
+    <string name="showdata_btn">Показать данные</string>
+    <string name="device_text">№ прибора учета</string>
+    <string name="device_example">0077891020014144</string>
+    <string name="check_text">Проверка</string>
+    <string name="check_example">01.08.2009</string>
+    <string name="next_check_text">Следующая проверка</string>
+    <string name="next_check_example">01.08.2025</string>
+
+    <!-- data to login -->
+    <string name="s_login_text">Логин</string>
+    <string name="username_text">username</string>
+    <string name="new_login_text">Новый логин</string>
+    <string name="old_pass_text">Старый пароль</string>
+    <string name="new_pass_text">Новый пароль</string>
+    <string name="repeat_pass_text">Повторите пароль</string>
+
+    <!-- notifications -->
+    <string name="send_via_email">Отправлять по e-mail:</string>
+    <string name="email_reminder">Напоминание о подаче показаний</string>
+    <string name="email_status">Состояние счетчиков</string>
+    <string name="email_chat">Чат</string>
+    <string name="email_norec">Отсутствие показаний</string>
+    <string name="send_via_push">Push-уведомления:</string>
+    <string name="push_reminder">Напоминание о подаче показаний</string>
+    <string name="push_status">Состояние счетчиков</string>
+    <string name="push_chat">Чат</string>
+    <string name="push_norec">Отсутствие показаний</string>
+
+    <!-- password recovery -->
+    <string name="pass_rec_title">Восстановление пароля</string>
+    <string name="pass_rec_subtitle">Пожалуйста, введите данные\nдля смены пароля</string>
+    <string name="pass_rec_btn">Сменить пароль</string>
+
+    <!-- password recovery email -->
+    <string name="put_email_hint">Введите e-mail</string>
+    <string name="send_appeal_btn">Отправить заявку</string>
+
+    <!-- archive -->
+    <string name="archive_text">Для вывода архивной информации выберите\nнеобходимый период</string>
+    <string name="archive_show">Показать архив</string>
+    <string name="archive_month">Месяц</string>
+    <string name="archive_year">Год</string>
+    <string name="archive_records">Показания</string>
+    <string name="archive_sum">Сумма</string>
+
+    <!-- feedback -->
+    <string name="chat_text">Введите свой запрос...</string>
+    <string name="sender_text">Привет!</string>
+    <string name="notification_chat">Чат временно недоступен.</string>
+
+    <string name="dear_user_text">Уважаемый пользователь!</string>
+    <string name="redirect_text">Сейчас вы будете переведены\nна платежную страницу банка,\nгде сможете скорректировать\nсумму и оплатить</string>
+
+    <!-- instructions -->
+    <string name="instruction_text">Инструкция по работе\nприложения</string>
+    <string name="work_instruction">Инструкция по работе приложения</string>
+    <string name="records_instruction_water">Инструкция по снятию показаний счетчиков\n(холодное и горячее водоснабжение)</string>
+    <string name="records_instruction_electricity">Инструкция по снятию показаний счетчиков\n(электроснабжение)</string>
+    <string name="watch_btn">Смотреть видео</string>
+
+</resources>

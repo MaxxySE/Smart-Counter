@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.main.MainFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_to_pay_epd"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/main_top_pay_epd_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="@string/main_start_sum"
+                android:textColor="#2FFF00"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_currency"
+                android:textSize="16sp"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/gilroy_regular" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_payed"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/main_payed_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="@string/main_start_sum"
+                android:textColor="#2FFF00"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_currency"
+                android:textSize="16sp"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/gilroy_regular" />
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/main_to_pay"
+            android:fontFamily="@font/gilroy_regular"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:elevation="3dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/main_to_pay_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:fontFamily="@font/gilroy_bold"
+                android:text="@string/main_start_sum"
+                android:textColor="#2FFF00"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/main_currency"
+                android:textSize="16sp"
+                android:layout_marginStart="5dp"
+                android:fontFamily="@font/gilroy_regular" />
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/main_pay_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="50dp"
+            android:text="@string/main_pay_btn"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:background="@drawable/rounded_button"/>
+
+        <Button
+            android:id="@+id/main_records_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/main_send_records_btn"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:textColor="#185BFF"
+            android:background="@drawable/bordered_button"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

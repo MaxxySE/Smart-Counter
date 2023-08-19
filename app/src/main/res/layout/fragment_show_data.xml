@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.settings.fragments.records.fragments.showdata.ShowDataFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/device_text"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/device_example"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:fontFamily="@font/gilroy_regular"
+            android:background="@drawable/white_textfield"
+            android:elevation="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/check_text"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/check_example"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:fontFamily="@font/gilroy_regular"
+            android:background="@drawable/white_textfield"
+            android:elevation="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/next_check_text"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/next_check_example"
+            android:gravity="center_vertical"
+            android:paddingStart="20dp"
+            android:fontFamily="@font/gilroy_regular"
+            android:background="@drawable/white_textfield"
+            android:elevation="3dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

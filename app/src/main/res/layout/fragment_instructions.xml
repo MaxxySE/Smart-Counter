@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.instructions.InstructionsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/work_instruction"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <Button
+            android:id="@+id/watch_work_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="20dp"
+            android:text="@string/watch_btn"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/records_instruction_water"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <Button
+            android:id="@+id/watch_water_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="20dp"
+            android:text="@string/watch_btn"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/records_instruction_electricity"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <Button
+            android:id="@+id/watch_electricity_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:layout_marginTop="20dp"
+            android:text="@string/watch_btn"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

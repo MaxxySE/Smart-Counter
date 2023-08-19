@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.settings.fragments.records.SRecordsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/records_text"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <Spinner
+            android:id="@+id/data_spinner_type"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="200dp"
+            android:layout_marginBottom="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/white_textfield"
+            android:elevation="3dp"/>
+
+        <Button
+            android:id="@+id/show_data_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rounded_button"
+            android:text="@string/showdata_btn"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.settings.SettingsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_centerInParent="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/email_text"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:text="@string/email"
+            android:paddingStart="20dp"
+            android:textSize="14sp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/gilroy_regular"
+            android:elevation="3dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/phone_text"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="40dp"
+            android:textSize="14sp"
+            android:inputType="number"
+            android:text="@string/phone"
+            android:paddingStart="20dp"
+            android:gravity="center_vertical"
+            android:fontFamily="@font/gilroy_regular"
+            android:elevation="3dp"/>
+
+        <Button
+            android:id="@+id/save_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:background="@drawable/rounded_button"
+            android:text="@string/save_btn"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"/>
+
+        <Button
+            android:id="@+id/payer_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/payercode_btn"
+            android:textColor="#185BFF"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:background="@drawable/bordered_button"/>
+
+        <Button
+            android:id="@+id/records_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/records_btn"
+            android:textColor="#185BFF"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:background="@drawable/bordered_button"/>
+
+        <Button
+            android:id="@+id/data_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/logindata_btn"
+            android:textColor="#185BFF"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            android:background="@drawable/bordered_button"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

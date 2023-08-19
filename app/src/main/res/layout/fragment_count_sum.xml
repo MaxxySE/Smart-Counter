@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.sumcount.CountSumFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:isScrollContainer="true">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pay_attantion_cs"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/electricity_cs"
+            android:fontFamily="@font/gilroy_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/electricity_textedit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            android:hint="@string/input_data_cs"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/electricity_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tarif_plan"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cold_water_cs"
+            android:fontFamily="@font/gilroy_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/cold_water_textedit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="20dp"
+            android:elevation="2dp"
+            android:hint="@string/input_data_cs"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/cold_water_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tarif_plan"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/hot_water_cs"
+            android:fontFamily="@font/gilroy_bold"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"/>
+
+        <EditText
+            android:id="@+id/hot_water_textedit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:background="@drawable/white_textfield"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:elevation="2dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="20dp"
+            android:hint="@string/input_data_cs"
+            android:fontFamily="@font/gilroy_regular"
+            android:textSize="16sp"
+            tools:ignore="RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/hot_water_tarif"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/tarif_plan"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/to_pay_cs"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:id="@+id/to_edp_pay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/start_sum"
+            android:fontFamily="@font/gilroy_bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/count_based_on_data_cs"
+            android:fontFamily="@font/gilroy_regular"/>
+
+        <TextView
+            android:id="@+id/count_on_sent_data"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:text="@string/start_sum"
+            android:fontFamily="@font/gilroy_bold"/>
+
+        <Button
+            android:id="@+id/send_data_btn"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/send_data_cs"
+            android:fontFamily="@font/gilroy_regular"
+            android:background="@drawable/rounded_button"
+            android:textSize="16sp"/>
+    </LinearLayout>
+
+
+</ScrollView>

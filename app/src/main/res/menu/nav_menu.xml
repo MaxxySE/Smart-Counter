@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn = "navigation_view">
+
+    <group
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_main"
+            android:icon="@drawable/home_side_image"
+            android:title="@string/nav_main_text"/>
+        <item
+            android:id="@+id/nav_records"
+            android:icon="@drawable/readings_side_image"
+            android:title="@string/nav_records_text"/>
+        <item
+            android:id="@+id/nav_analyse"
+            android:icon="@drawable/analysis_side_image"
+            android:title="@string/nav_analyse_text"/>
+        <item
+            android:id="@+id/nav_prediction"
+            android:icon="@drawable/prediction_side_image"
+            android:title="@string/nav_prediction_text"/>
+        <item
+            android:id="@+id/nav_archive"
+            android:icon="@drawable/archive_side_image"
+            android:title="@string/nav_archive_text"/>
+        <item
+            android:id="@+id/nav_feedback"
+            android:icon="@drawable/feedback_side_image"
+            android:title="@string/nav_feedback_text"/>
+        <item
+            android:id="@+id/nav_notification"
+            android:icon="@drawable/notify_side_image"
+            android:title="@string/nav_notifications_text"/>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/settings_side_image"
+            android:title="@string/nav_settings_text"/>
+        <item
+            android:id="@+id/nav_exit"
+            android:icon="@drawable/exit_side_image"
+            android:title="@string/nav_exit_text"/>
+
+    </group>
+</menu>
